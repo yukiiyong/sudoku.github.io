@@ -43,6 +43,7 @@ class Generator {
 		const order = this.orders[rowIndex]
 
 		for(let i = 0; i < 9; i++) {
+			//取列数
 			const colIndex = order[i]
 
 			if(rows[colIndex]) {
